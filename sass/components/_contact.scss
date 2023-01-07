@@ -1,0 +1,30 @@
+.contact__list{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.contact__item{
+    margin-top: 8px;
+}
+.contact__link {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $accent-color;
+    margin-bottom: 9px;
+    &:hover,
+    &:focus {
+        color: $main-hover-color;
+    }
+}
+.contact__link--color {
+    color: rgba(255, 255, 255, 0.6);
+} 
+@media screen and (min-width:1200px) {
+   .contact__item:first-child {
+    margin-top: 30px;
+}
+.contact__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+}

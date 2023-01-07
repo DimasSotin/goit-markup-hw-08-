@@ -1,0 +1,86 @@
+ .team {
+    background: #f5f4fa;
+    text-align: center;
+}
+.team__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    line-height: calc(33/28);
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    color: $primary-color;
+}
+.team__item {
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 20px;
+   
+}
+.team__name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    padding-top: 30px;
+    color: $primary-color;
+}
+.team__profession {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: $secondary-text-color;
+}
+
+.social-link__button {
+    width: 44px;
+    height: 44px;
+    background-color: inherit;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 30px;
+    fill: $secondary-text-color;
+    transition: background-color 250ms $timing-function, fill 250ms $timing-function;
+    &:hover {
+        background-color: #2196f3;
+        fill: $accent-color;
+    }
+}
+.social-link__icon {
+    width: 20px;
+    height: 20px;
+}   
+@media screen and (min-width:768px) and (max-width:1199px){
+    .team__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.team__item{
+     width: 100%;
+        flex-basis: calc((100% - 2 * 30px) / 2);
+}
+}
+@media screen and (min-width:1200px) {
+
+.team__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.16;
+    padding-bottom: 50px;
+   
+}
+.team__list {
+    display: flex;
+}
+.team__item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+}

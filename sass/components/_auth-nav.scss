@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+    .auth-nav__list {
+        display: block;
+    }
+    .auth-nav__link {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: $secondary-text-color;
+        margin-right: 50px;
+        fill: $secondary-text-color;
+        &:hover,
+        &:focus {
+            color: $main-hover-color;
+            fill: $main-hover-color;
+            transition: color 250ms $timing-function, fill 250ms $timing-function;
+        }
+    }
+    .auth-nav__icon {
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .auth-nav__list {
+        display: flex;
+        margin-left: 210px;
+    }
+    .auth-nav__link {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: $secondary-text-color;
+        margin-right: 50px;
+        fill: $secondary-text-color;
+        &:hover,
+        &:focus {
+            color: $main-hover-color;
+            fill: $main-hover-color;
+            transition: color 250ms $timing-function, fill 250ms $timing-function;
+        }
+    }
+    .auth-nav__icon {
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+    }
+}

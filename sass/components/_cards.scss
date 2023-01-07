@@ -1,0 +1,24 @@
+
+@media screen and (min-width:1200px) {
+   
+.cards {
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+.card__name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: $primary-color;
+}
+.card__description {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+} 
+}

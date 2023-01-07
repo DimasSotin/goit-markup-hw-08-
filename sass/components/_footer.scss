@@ -1,0 +1,32 @@
+.footer {
+  background-color: #2f303a;
+  text-align: center;
+}
+.footer__logo--color {
+  color: $accent-color;
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .footer__tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .footer__tablet {
+    display: flex;
+  }
+
+  .footer__contact {
+    padding-top: 60px;
+  }
+}
