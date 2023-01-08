@@ -79,6 +79,11 @@ img {
   justify-content: space-between;
 }
 
+@media screen and (min-width: 1200px) {
+  .header__nav {
+    align-items: baseline;
+  }
+}
 .menu-mobile {
   display: none;
 }
@@ -142,6 +147,7 @@ img {
 .menu-mobile__social-list {
   display: flex;
   justify-content: space-between;
+  margin-top: 64px;
 }
 
 .menu-mobile__social-item {
@@ -325,11 +331,6 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .auth-nav__list {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 210px;
-  }
   .auth-nav__link {
     display: flex;
     align-items: center;
