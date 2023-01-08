@@ -51,6 +51,9 @@
         color: $main-hover-color;
     }
 }
+.menu-mobile__link--current{
+    color:$main-hover-color;
+}
 .menu-mobile__social-list {
     display: flex;
     justify-content: space-between;
