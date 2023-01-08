@@ -16,7 +16,7 @@
     border-radius: 4px;
     background-color: inherit;
     margin-bottom: 20px;
-      color: #fff;
+    color: #fff;
     &::placeholder {
         font-family: "Roboto";
         font-size: 16px;
@@ -40,7 +40,7 @@
     border: none;
 }
 
-.mailing__span{
+.mailing__span {
     position: relative;
 }
 .mailing__icon {
@@ -49,32 +49,37 @@
     top: 50%;
     transform: translateY(-50%);
 }
-
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 768px) {
     .mailing {
-    margin-left: 40px;
-    padding-top: 72px;
+        margin-left: 166px;
+        margin-right: 152px;
+    }
 }
-.mailing__title {
-    font-family: "Roboto";
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-.mailing__email {
-    width: 358px;
-}
+@media screen and (min-width: 1200px) {
+    .mailing__email {
+        margin-left: 40px;
+        padding-top: 72px;
+    }
+    .mailing__title {
+        font-family: "Roboto";
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .mailing__email {
+        width: 358px;
+    }
 
-.mailing__span{
-    position: relative;
-}
-.mailing__icon {
-    position: absolute;
-    left: 80%;
-    top: 50%;
-    transform: translateY(-50%);
-}
+    .mailing__span {
+        position: relative;
+    }
+    .mailing__icon {
+        position: absolute;
+        left: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }

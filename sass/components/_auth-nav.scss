@@ -1,6 +1,10 @@
 @media screen and (min-width: 768px) {
     .auth-nav__list {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .auth-nav__item{
+        margin-bottom: 10px;
     }
     .auth-nav__link {
         display: flex;
@@ -22,7 +26,7 @@
     }
     .auth-nav__icon {
         width: 16px;
-        height: 12px;
+        height: 16px;
         margin-right: 10px;
     }
 }

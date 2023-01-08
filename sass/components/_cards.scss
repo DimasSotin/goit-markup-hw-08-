@@ -1,11 +1,9 @@
-
-@media screen and (min-width:1200px) {
-   
 .cards {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
+  height: 146px;
 }
 .card__name {
   font-family: "Roboto", sans-serif;
@@ -21,4 +19,3 @@
   letter-spacing: 0.03em;
   color: $secondary-text-color;
 } 
-}
