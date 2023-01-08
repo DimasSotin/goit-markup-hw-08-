@@ -43,6 +43,11 @@
     transform-origin: bottom;
     transition: transform 250ms $timing-function;
 }
+.gallery__link{
+    height: 100%;
+      display: flex;
+    flex-direction: column;
+}
 .gallery__link:hover .gallery__overlay::before {
     transform: scaleY(1);
 }

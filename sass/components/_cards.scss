@@ -3,6 +3,7 @@
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
+  flex-grow: 1;
 
 }
 
@@ -22,9 +23,4 @@
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: $secondary-text-color;
-}
-.gallery__item:first-child .cards {
-    @media screen and (min-width: 768px) and (max-width: 1199px)  {
-        padding-bottom: 56px;
-    }
 }
