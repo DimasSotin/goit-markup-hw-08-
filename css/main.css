@@ -864,6 +864,10 @@ img {
   gap: 30px;
 }
 
+.clients__item {
+  flex-basis: calc((100% - 60px) / 2);
+}
+
 .clients__title {
   font-family: "Roboto";
   font-size: 28px;
@@ -875,7 +879,7 @@ img {
 }
 
 .clients__button {
-  width: 100%;
+  width: 210px;
   height: 92px;
   padding: 16px 52px;
   background-color: unset;
@@ -887,10 +891,6 @@ img {
 .clients__button:hover, .clients__button:focus {
   fill: #2196f3;
   border-color: #2196f3;
-}
-
-.clients__item {
-  flex-basis: calc((100% - 60px) / 2);
 }
 
 @media screen and (min-width: 768px) {

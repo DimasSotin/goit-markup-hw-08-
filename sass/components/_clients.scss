@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-
+.clients__item {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+}
 .clients__title {
     font-family: "Roboto";
     font-size: 28px;
@@ -14,7 +16,7 @@
     color: $primary-color;
 }
 .clients__button {
-    width: 100%;
+    width: 210px;
     height: 92px;
     padding: 16px 52px;
     background-color: unset;
@@ -28,16 +30,14 @@
         border-color: $main-hover-color;
     }
 }
-.clients__item {
-    flex-basis: calc((100% - 2 * 30px) / 2);
-}
+
 @media screen and (min-width: 768px) {
     .clients__item {
         flex-basis: calc((100% - 3 * 30px) / 3);
     }
 }
 @media screen and (min-width: 1200px) {
-    .clients__button{
+    .clients__button {
         width: 170px;
     }
     .clients__item {
