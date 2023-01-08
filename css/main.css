@@ -75,7 +75,7 @@ img {
 
 .header__nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -1271,15 +1271,19 @@ img {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
-  height: 146px;
 }
 
 .card__name {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .card__name {
+    font-size: 18px;
+  }
 }
 
 .card__description {
@@ -1288,4 +1292,10 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .gallery__item:first-child .cards {
+    padding-bottom: 56px;
+  }
 }/*# sourceMappingURL=main.css.map */

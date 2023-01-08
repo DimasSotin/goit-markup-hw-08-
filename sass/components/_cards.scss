@@ -3,14 +3,18 @@
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
-  height: 146px;
+
 }
+
 .card__name {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 36px;
   letter-spacing: 0.06em;
   color: $primary-color;
+  @media screen and (min-width: 768px) and (max-width:1199px){
+    font-size: 18px;
+  }
 }
 .card__description {
   font-family: "Roboto", sans-serif;
@@ -18,4 +22,9 @@
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: $secondary-text-color;
-} 
+}
+.gallery__item:first-child .cards {
+    @media screen and (min-width: 768px) and (max-width: 1199px)  {
+        padding-bottom: 56px;
+    }
+}
