@@ -79,11 +79,6 @@ img {
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1200px) {
-  .header__nav {
-    align-items: baseline;
-  }
-}
 .menu-mobile {
   display: none;
 }
@@ -135,6 +130,9 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
   margin-bottom: 32px;
+}
+.menu-mobile__link-phone {
+  color: #2196f3;
 }
 .menu-mobile__link:hover, .menu-mobile__link:focus {
   color: #2196f3;
@@ -331,6 +329,12 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .auth-nav__list {
+    display: flex;
+  }
+  .auth-nav__item {
+    margin-bottom: 0;
+  }
   .auth-nav__link {
     display: flex;
     align-items: center;
