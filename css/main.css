@@ -320,6 +320,7 @@ img {
 @media screen and (min-width: 1200px) {
   .auth-nav__list {
     display: flex;
+    flex-wrap: nowrap;
     margin-left: 210px;
   }
   .auth-nav__link {
@@ -926,11 +927,14 @@ img {
   .footer {
     display: flex;
     text-align: left;
-    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .container.footer {
     padding: 0;
+    align-items: baseline;
   }
   .footer__tablet {
-    display: flex;
+    flex-wrap: nowrap;
   }
   .footer__contact {
     padding-top: 60px;
@@ -1098,30 +1102,12 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .mailing__email {
-    margin-left: 40px;
-    padding-top: 72px;
-  }
-  .mailing__title {
-    font-family: "Roboto";
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
+  .mailing {
+    margin-left: 93px;
+    margin-right: 0;
   }
   .mailing__email {
     width: 358px;
-  }
-  .mailing__span {
-    position: relative;
-  }
-  .mailing__icon {
-    position: absolute;
-    left: 80%;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 .services__list {

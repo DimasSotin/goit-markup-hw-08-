@@ -19,11 +19,15 @@
   .footer {
     display: flex;
     text-align: left;
-    justify-content: space-between;
-    padding:0;
+   
+    padding-bottom: 30px;
+  }
+  .container.footer{
+    padding: 0;
+    align-items: baseline;
   }
   .footer__tablet {
-    display: flex;
+    flex-wrap: nowrap;
   }
 
   .footer__contact {
