@@ -50,12 +50,12 @@
     .features__list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         gap: 30px;
         
     }
     .features__item {
-        width: 100%;
+        
         flex-basis: calc((100% - 3 * 30px) / 2);
     }
 }
